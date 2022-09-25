@@ -210,11 +210,11 @@ jobs:
 
 
 
-#workflows:
+workflows:
   # Name the workflow "welcome"
- # my_workflow:
+  my_workflow:
     # Run the welcome/run job in its own container
-  #  jobs:
+    jobs:
       # - welcome/run
    #   - print_greetings
     #  - upload_file
